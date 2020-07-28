@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `shorturl` (
+CREATE TABLE IF NOT EXISTS `url_shortner` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `link` varchar(255) NOT NULL,
   `short_link` varchar(50) NOT NULL,
